@@ -21,4 +21,6 @@ urlpatterns = [
     path('base/', views.Base, name='base'),
     path('', views.Home, name= 'home'),
     path('single-cource/', views.SingleCource, name='single-cource'),
+    path('contactus/', views.ContactUs, name='contact-us'),
+    path('aboutus/', views.AboutUs, name='about-us'),
 ]

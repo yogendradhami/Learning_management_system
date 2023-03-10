@@ -8,3 +8,9 @@ def Home(request):
 
 def SingleCource(request):
     return render(request, 'main/single_cource.html')
+
+def ContactUs(request):
+    return render(request, 'main/contact_us.html')
+
+def AboutUs(request):
+    return render(request, 'main/about_us.html'),
