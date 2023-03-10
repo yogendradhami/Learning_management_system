@@ -13,4 +13,4 @@ def ContactUs(request):
     return render(request, 'main/contact_us.html')
 
 def AboutUs(request):
-    return render(request, 'main/about_us.html'),
+    return render(request, 'main/about_us.html')
