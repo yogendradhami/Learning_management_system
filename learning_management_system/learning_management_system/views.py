@@ -5,3 +5,6 @@ def Base(request):
 
 def Home(request):
     return render(request, 'main/home.html')
+
+def SingleCource(request):
+    return render(request, 'main/single_cource.html')
